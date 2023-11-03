@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    height: 87px;
+    align-items: center;
+    background-color: #5a5a5a;
+    color: #FFF;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu__list li {
+    margin: 0px 27px 0px 0px;
+}
+
+.header__menu{
+    flex: 1 1 auto;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding:14px 34px 14px 34px ;
+    margin:0px 27px 0px 0px;
+    border-radius: 12px 12px 12px 12px;
+}   
+.image {
+    height: 80px;
+    width: 80px;
+}
+.Card{
+    width: 286px;
+    height: 312px;
+    background-color: #f0e6e6;
+    color: #ffffff;
+    border-radius: 12px 12px 12px 12px;
+}
+.Text{
+    margin-top: 50px;
+    color: black;
+    font-size: 20px;
+}
+
+.card__title {
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 12px 12px 12px 12px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.button-block{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
