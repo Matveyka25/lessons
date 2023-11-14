@@ -60,5 +60,9 @@
 }
 .content__img{
     display: flex;
-    margin: 34px;
+    justify-content: center;
+}
+.Card{
+   margin-left: 50px;
+   margin-top: 50px;
 }
