@@ -67,15 +67,16 @@
    margin-top: 50px;
 }
 .content__img{
-    background-color: rgb(224, 220, 215);
+    /* background-color: rgb(224, 220, 215); */
 }
 .content{
-    background-color: rgb(173, 163, 163);
+    
 }
 .information{
     padding: 50px 0px 50px 0px;
     display: flex;
     justify-content: center;
+    background-color: rgb(173, 163, 163);
 }
 .introductory__title{
     text-align: center;
@@ -92,11 +93,41 @@
     margin-top: 30px;
 }
 .information__logo{
+    position: relative;
+    z-index: 5;
     width: 333px;
     height: 231px;
+    margin-left: 50px;
+}
+
+.information__image {
+    position: relative;
 }
 
 .introductory {
     width: 333px;
     height: 231px;
+}
+.square{
+    position: absolute;
+    bottom: 43px;
+    right: 27px;
+    width: 333px;
+    height: 231px;
+    background-color: #2c2929;
+}
+
+.cards {
+    margin-top: 55px;
+    background-color: #fff;
+}
+.block{
+    max-width: 843px;
+    height: 65px;
+    background-color: #615e5e;
+    font-size: 22px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
