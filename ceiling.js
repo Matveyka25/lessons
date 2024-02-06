@@ -11,7 +11,7 @@ let hellgoat = 'адский козел';
 console.log(hellgoat);
 
 let hellcow = `адская корова`;
-console.log(hellcow);
+console.loьбg(hellcow);
 
 let helldonkey = true;
 console.log(helldonkey);
