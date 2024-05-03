@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    height: 100%;
+    font-family: Inter;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+[class*="__container"] {
+
+}
+
+.header{
+    height: 200px;
+    background-color: #c9c6c6;
+    color: #000000;
+    background-image: url("../потолок для сайта.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+.ceilings-title{
+    margin-top: 50px;
+    color: black;
+    font-size: 45px;
+}
