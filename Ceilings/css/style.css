@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    height: 100%;
+    font-family: Inter;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+[class*="__container"] {
+
+}
+
+.header{
+    background-color: #c9c6c6;
+    color: #000000;
+    background: url("../assets/потолок для сайта.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.ceilings-title{
+    margin-top: 50px;
+    color: black;
+    font-size: 45px;
+
+}
+.ceilings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.list-item{
+    margin: 0px 100px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.line{
+    width: 1100px;
+    height: 5px;
+    margin: 2px;
+    background-color: #ffffff;
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40vh;
+    font-size: 24px;
+    width: 320px;
+    height: 80px;
+}
+.order-botton{
+    border-radius: 30px;
+    background-color: #000000;
+
+}
