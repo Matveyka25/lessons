@@ -76,9 +76,25 @@ body {
     font-size: 24px;
     width: 320px;
     height: 80px;
-}
-.order-botton{
+    background-color: rgb(25, 98, 141);
     border-radius: 30px;
-    background-color: #000000;
+}
 
+
+
+
+
+.types{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.types-title{
+    margin-top: 40px;
+    color: black;
+    font-size: 40px;
+}
+.carousel-container{
+    background-color: #EFE1D6;
 }
