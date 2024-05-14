@@ -98,3 +98,19 @@ body {
 .carousel-container{
     background-color: #EFE1D6;
 }
+.carousel-inner{
+    max-width: 90%;
+    
+}
+.satin{
+    width: 1380px;
+    height: 800px;
+    background-color: #ffffff;
+}
+.button1{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #79A6B9;
+    align-items: center;
+}
