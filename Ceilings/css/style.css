@@ -91,26 +91,74 @@ body {
     flex-direction: column; 
 }
 .types-title{
-    margin-top: 40px;
+    margin: 40px 0px 40px 0px;
     color: black;
     font-size: 40px;
 }
 .carousel-container{
     background-color: #EFE1D6;
+    padding: 0px 200px;
 }
-.carousel-inner{
-    max-width: 90%;
-    
+
+.carousel__wrapper {
+    padding: 50px 150px;
+    background-color: #e2c2a9;
 }
+
+
+
 .satin{
-    width: 1380px;
-    height: 800px;
-    background-color: #ffffff;
+    font-size: 20px;
+    text-align: center;
 }
 .button1{
-    width: 200px;
-    height: 50px;
-    border-radius: 15px;
+    border: none;
+  outline: none;
+  display: inline-block;
+  font-size: 16px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 20px;
     background-color: #79A6B9;
-    align-items: center;
+}
+.matte{
+    font-size: 20px;
+    text-align: center;
+}
+.button2{
+
+}
+.glossy{
+    font-size: 20px;
+    text-align: center;
+}
+.button3{
+
+}
+.translucent{
+    font-size: 20px;
+    text-align: center;
+}
+.button4{
+
+}
+.perforated{
+    font-size: 20px;
+    text-align: center;
+}
+.button5{
+
+}
+.texture{
+    font-size: 20px;
+    text-align: center;
+}
+.button6{
+
+}
+.photocopy{
+    font-size: 20px;
+    text-align: center;
+}
+.button7{
+
 }
